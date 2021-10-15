@@ -1,0 +1,67 @@
+body {
+ 
+background-image: linear-gradient(
+      50deg,
+      rgba(75, 37, 109, 0.6),
+      rgba(111, 84, 139, 0.6),
+      rgba(1, 84, 139, 0.9)
+    ), 
+     url(https://upload.wikimedia.org/wikipedia/en/6/6b/Front_of_Sheikh_Zayed_Mosque.jpg); 
+  background-position: top;
+   background-attachment: fixed;
+  background-size: cover;
+  min-width: 700px;
+
+}
+  main {
+  background-color: black;
+  max-width:72%;
+  margin: auto;
+   padding: 40px 60px 50px 50px;
+   border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  opacity: 0.66;
+  color: white;
+}
+
+
+
+#survey-form{
+      line-height:70px;
+    align-items:middle;
+    }
+
+    #comments{display:flex;}
+    
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+    }
+
+    #dropdown {
+      display: flex;
+      flex-direction: column;
+      width: 80%
+    }
+
+    #comments {
+      display: flex;
+    }
+
+    #rating {
+      display: block;
+    }
+
+    .radio {
+      width: 75px;
+    }
+
+    .check {
+      width: 75px;
+     
+    }
+    
+ 
